@@ -6,6 +6,8 @@
  {
 
 
+ 		/*
+development connection
  	public $host="localhost";
  	public $username="root";
  	public $pass="";
@@ -15,6 +17,19 @@
  	public $course_count=0;
  	public $video_count=0;
  	public $faq_list;
+*/
+
+/*remote database connection*/
+	public $host="remotemysql.com";
+ 	public $username="n8gxap7PGT";
+ 	public $pass="hIeFLjY7Qe";
+ 	public $db_name="n8gxap7PGT";
+ 	public $conn;
+ 	public $user_details;
+ 	public $course_count=0;
+ 	public $video_count=0;
+ 	public $faq_list;
+
 
  	public function __construct()
  	{
