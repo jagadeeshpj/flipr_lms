@@ -7,9 +7,12 @@ if (!isset($_SESSION['username'])) {
 	# code...
 }
 
- $con=mysqli_connect('localhost','root');  
+  $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+			
+   
+    mysqli_select_db($con,'n8gxap7PGT');
+   
 
-mysqli_select_db($con,'uniquedeveloper');
 $result=0;
 
 ?>
@@ -23,7 +26,7 @@ $result=0;
 
 <div class="container ">
 	<br><br>
-	<h1 class="text-center">UNIQUE DEVELOPER QUIZE</h1>
+	<h1 class="text-center">FLIPR QUIZE</h1>
 	<br><br><br>
 
 	<table class="table text-center table-bordered table-hover">
