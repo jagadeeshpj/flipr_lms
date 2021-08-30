@@ -212,11 +212,15 @@ ul, ol {
 
 			   // session_start();
 
-			   $con=mysqli_connect('localhost','root');
+			  /* $con=mysqli_connect('localhost','root');
 
 
 			mysqli_select_db($con,'uniquedeveloper');
+*/
+			 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
+			
+			mysqli_select_db($con,'n8gxap7PGT');
 			$q="select * from programming_languages";
 			$query=mysqli_query($con,$q);
 			while ($res=mysqli_fetch_array($query)) {
