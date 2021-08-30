@@ -42,7 +42,7 @@ if (!isset($_SESSION['username'])) {
    <body>
      <div class="container text-center" >
       <br><br>
-      <h1 class="text-center text-success text-uppercase animateuse" > UNIQUE DEVELOPER Quiz World</h1>
+      <h1 class="text-center text-success text-uppercase animateuse" > FLIPR Quiz World</h1>
       <br><br><br><br>
       <table class="table text-center table-bordered table-hover">
         <tr>
