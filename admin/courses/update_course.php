@@ -12,11 +12,13 @@ include "../includes/header.php";
 
 <?php 
 
+	 /*$con=mysqli_connect('localhost','root');
+*/
+       		 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
-       		 $con=mysqli_connect('localhost','root');
 
-
-			mysqli_select_db($con,'uniquedeveloper');
+			mysqli_select_db($con,'n8gxap7PGT');
+			/*mysqli_select_db($con,'uniquedeveloper');*/
        		$course_id=$_GET['course_id'];
        		$q="select * from courses where id='$course_id'";
 			$result=mysqli_query($con,$q);
