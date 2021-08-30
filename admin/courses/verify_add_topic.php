@@ -2,10 +2,10 @@
 <?php
 	
 
+	   $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
-		  $con=mysqli_connect('localhost','root');
-      mysqli_select_db($con,'uniquedeveloper');
 
+			mysqli_select_db($con,'n8gxap7PGT');
        $topicname=$_POST['topic_name'];
 	 	$coursename=$_POST['coursename'];
 	 	$description=$_POST['editor'];
