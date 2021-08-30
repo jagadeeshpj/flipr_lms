@@ -87,10 +87,13 @@ background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, F
        		</tr>
        		<?php
 
-       		 $con=mysqli_connect('localhost','root');
+       		/*$con=mysqli_connect('localhost','root');
+*/
+       		 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
 
-			mysqli_select_db($con,'uniquedeveloper');
+			mysqli_select_db($con,'n8gxap7PGT');
+			/* mysqli_select_db($con,'uniquedeveloper');*/
        		$coursename=$_GET['course_name'];
        		$q="select * from courses where course_name='$coursename'";
 			$result=mysqli_query($con,$q);
