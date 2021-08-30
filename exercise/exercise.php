@@ -7,9 +7,12 @@ if (!isset($_SESSION['username'])) {
 	# code...
 }
 
- $con=mysqli_connect('localhost','root');  
-
-mysqli_select_db($con,'uniquedeveloper');
+ 
+  $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+			
+   
+    mysqli_select_db($con,'n8gxap7PGT');
+   
 if ($con) {
 	echo "connection success";
 }
@@ -30,7 +33,7 @@ if ($con) {
 		
 	
 
-	<h1 class="text-center text-primary">UNIQUE DEVELOPER QUIZE</h1>
+	<h1 class="text-center text-primary">FLIPR QUIZE</h1>
 
 	<div class="col-lg-9 m-auto d-block">
 		<div class="card">
@@ -92,7 +95,7 @@ if ($con) {
 
 </div><br><br>
 <div class="card-header text-center text-primary">
-	Copyright © 2019,UNIQUE DEVELOPER . All rights reserved.
+	Copyright © 2021,FLIPR LMS . All rights reserved.
 </div>
 
 
