@@ -3,8 +3,8 @@
 session_start();
 
 
-$con=mysqli_connect('localhost','root');
-
+/*$con=mysqli_connect('localhost','root');*/
+$con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 if ($con) 
   {
 		echo "connection successful";
@@ -14,7 +14,8 @@ else
 		echo "no connection";
 	}
 
- mysqli_select_db($con,'uniquedeveloper');
+ /* mysqli_select_db($con,'uniquedeveloper');*/
+ mysqli_select_db($con,'n8gxap7PGT');
  $name=$_POST['name'];
  $pass=$_POST['password'];
  $email=$_POST['email'];
