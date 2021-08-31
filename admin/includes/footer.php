@@ -196,7 +196,7 @@
           <div class="col-xs-6 col-md-3">
             <h6>MY WEBPAGE</h6>
             <ul class="footer-links">
-            <p>MY WEBSITE
+            <p>
          <a href="https://jagadeeshpj.herokuapp.com/" target="__blank">https://jagadeeshpj.herokuapp.com/</a>.
             </p>
               
