@@ -103,7 +103,7 @@
 	<div class="sidemenu" id="sidebarleftmenu">
 		<ul class="sidemenulist">
 			<li><a href="" class="crossbutton" onclick="closesidemenu()">&times;</a></li>
-			<li style="background-color :orangered;"><a href="../../programmingdemo.php" >Home</a></li>
+			<li style="background-color :orangered;"><a href="../../programmingdemo.php" >BACK</a></li>
 
 <?php 
  $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
