@@ -7,6 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://apis.google.com/js/client:platform.js?onload=startApp"></script>
 	<link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
