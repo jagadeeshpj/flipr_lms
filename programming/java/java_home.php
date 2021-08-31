@@ -104,7 +104,7 @@ background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, F
 
 
 			<li><a href="" class="crossbutton" onclick="closesidemenu()">&times;</a></li>
-			<li style="background-color :orangered;"><a href="" >Java - Home</a></li>
+			<li style="background-color :orangered;"><a href="../../programmingdemo.php" >Home</a></li>
 			<li><a href="">Java - Overview</a></li>
 			<li><a href="">Java - Environment Setup</a></li>
 			<li><a href="">Java - Basic Syntax</a></li>
