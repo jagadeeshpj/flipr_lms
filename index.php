@@ -1,6 +1,3 @@
-error_reporting(-1);
-
-
 <?php
 
 
