@@ -36,8 +36,9 @@ include "../../admin/includes/navbar.php";
 .div1                           /* for title image*/
 {
    position: relative;
-    height: 500px;
-    width: 1263px;
+     width: 100%;
+  max-width: 400px;
+  height: auto;
     background:url(onlinetutorial.jpg);
 }
 
