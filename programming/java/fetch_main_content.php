@@ -4,7 +4,7 @@ session_start();
 	 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 	mysqli_select_db($con,'n8gxap7PGT');
 		$id=$_POST['txt1'];
-		echo "hello sunil";
+		echo "hello JAGADEESH P";
 		$q="select * from courses where id=$id";
 		$result=mysqli_query($con,$q);
 		$res=mysqli_fetch_array($result); 
