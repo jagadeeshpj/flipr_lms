@@ -2,8 +2,10 @@
 
 include '../classes/manage_quiz_class.php';
 
-	$con=mysqli_connect('localhost','root');
-	mysqli_select_db($con,'uniquedeveloper');
+	 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+
+
+			mysqli_select_db($con,'n8gxap7PGT');
 	if (!$con)
 	 {
 		die('unable to coonect to database');
