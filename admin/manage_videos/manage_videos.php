@@ -185,7 +185,7 @@ body {
             <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quize</a></li>
             <li class="list-group-item bg-dark"><a href="#">Manage Videos</a></li>
            
-            <li class="list-group-item bg-dark"><a href="../logout.php">Logout</a></li>
+            <li class="list-group-item bg-dark"><a href="../../logout.php">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>
