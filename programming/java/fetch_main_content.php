@@ -1,11 +1,9 @@
 <?php
 session_start();
 
-	$con=mysqli_connect('localhost','root');
-	mysqli_select_db($con,'uniquedeveloper');
-
-	
-		 $id=$_POST['txt1'];
+	 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+	mysqli_select_db($con,'n8gxap7PGT');
+		$id=$_POST['txt1'];
 		echo "hello sunil";
 		$q="select * from courses where id=$id";
 		$result=mysqli_query($con,$q);
