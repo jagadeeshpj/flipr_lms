@@ -38,7 +38,7 @@ include "../../admin/includes/navbar.php";
    position: relative;
     height: 500px;
     width: 1263px;
-    background:url(online_video_title.png);
+    background:url(onlinetutorial.jpg);
 }
 
 
