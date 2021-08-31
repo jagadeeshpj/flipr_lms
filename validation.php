@@ -47,8 +47,13 @@ else
 
  }
 
-
+else
+{
+die(mysql_error());
+}
 
 
 
  ?>
+
+
