@@ -37,7 +37,7 @@ session_start();
 
 	<!-- Google Client id to integrate google signin-->
 
-	<meta name="google-signin-client_id" content="808976312783-k901nr0n50did222qa275k0umvn4rpi1.apps.googleusercontent.com">
+	<meta name="google-signin-client_id" content="762591851385-brcn7mt3qb3tomi3c2j1b1r89umuerqs.apps.googleusercontent.com">
 	
 
 	<!-- Google JavaScript file to integrate google signin-->
