@@ -86,10 +86,10 @@
 <?php 
 
 
-           $con=mysqli_connect('localhost','root');
+          $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
 
-      mysqli_select_db($con,'uniquedeveloper');
+			mysqli_select_db($con,'n8gxap7PGT');
           $course_id=$_GET['course_id'];
           $q="select * from courses where id='$course_id'";
       $result=mysqli_query($con,$q);
