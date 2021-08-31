@@ -1,64 +1,80 @@
-# flipr_lms
-i had created this website using html,css,php,javascript.
+# MY WEBSITE
+ 
+  <br />
+  https://flipr-lms.herokuapp.com/
+
+
+
+
+
+
+## flipr_lms  <br />
+i had created this website using html,css,php,javascript.  <br />
 i had used remotetype database from https://remotemysql.com/ and mysql workbench 8.0 ce.
+ <br />
+  <br />
+   <br />
 
+ <br />
 
-
-
-#For the Teacher User of the System
-The teacher can create his/her courses.
-techear can view list of users registered.
-Create practice quizzes and exercises for students 
+# For the Teacher User of the System  <br />
+The teacher can create his/her courses.  <br />
+techear can view list of users registered. <br />
+Create practice quizzes and exercises for students  <br />
 create video tutorials can upload into website for students
+ <br />
+ <br />
+# For the Student user of the system :   <br />
+register and Sign up for his / her account  <br />
+Can view  classmates in  his / her class  <br />
+Answer practice quizzes  <br />
+View evaluation of assignment and quizzes     <br />
+Download  downloadable materials in a class  <br />
+can watch video tutorials.  <br />
 
 
-#For the Student user of the system :
-register and Sign up for his / her account
-Can view  classmates in  his / her class
-Answer practice quizzes
-View evaluation of assignment and quizzes
-Download  downloadable materials in a class
-can watch video tutorials.
+# Screenshots
 
+![1](https://user-images.githubusercontent.com/87519174/131490349-1d01ee7d-c6b1-4a73-832b-951848c99882.JPG)  <br />
+![2](https://user-images.githubusercontent.com/87519174/131490357-6f8b1ec8-9edf-4a99-80ac-03de914fc245.JPG)
 
-Screenshots
+ <br />
+We are primarily considering JavaScript and php as the base language. , where the flipr lms consists of:   <br />
 
-We are primarily considering JavaScript and php as the base language. , where the flipr lms consists of:
+## Front End
+ <br />
+HTML & CSS (using SCSS)   <br />
+Bootstrap 4 & Responsiveness  <br />
+JavaScript & ES6  <br />
+php  <br />  <br />  <br />
 
-##Front End
+## Back End  <br />
+remote type database(https://remotemysql.com/)  <br />
+MySQL  <br />
+ <br />  <br />
 
-HTML & CSS (using SCSS)
-Bootstrap 4 & Responsiveness
-JavaScript & ES6
-php
-
-##Back End
-remote type database(https://remotemysql.com/)
-MySQL
-
-
-##Deployment
-
-Heroku
+## Deployment  <br />
+ <br />
+Heroku  <br />
 Github Actions
 
+ <br />  <br />
 
+## Installation & Running
+## System Requirements
 
-##Installation & Running
-##System Requirements
+## For Server Side Setup / Development Environment:   <br />
 
-##For Server Side Setup / Development Environment:
+Google Chrome  <br />
+Git: Our project uses Git as a version control system.  <br />
+Visual Studio Code  <br />
+sublimeText  <br />  <br />
 
-Google Chrome
-Git: Our project uses Git as a version control system.
-Visual Studio Code
-sublimeText
-
-##For running on the Client Side:
-
-A modern browser that supports localStorage & Single Page Applications:
-Google Chrome
-Mozilla Firefox
+## For running on the Client Side:
+ <br />
+A modern browser that supports localStorage & Single Page Applications:  <br />
+Google Chrome <br />
+Mozilla Firefox <br />
 Microsoft Edge (Blink Engine)
-
+ <br />
  
