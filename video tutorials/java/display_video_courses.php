@@ -7,6 +7,7 @@ include "../../admin/includes/navbar.php";
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<style type="text/css">
 		
@@ -33,13 +34,13 @@ include "../../admin/includes/navbar.php";
 	
 }
 
-.div1                           /* for title image*/
+.photo                          /* for title image*/
 {
-   position: relative;
-     width: 100%;
-  max-width: 400px;
-  height: auto;
-    background:url(onlinetutorial.jpg);
+	 display: block;
+	  width: 80%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -47,16 +48,16 @@ include "../../admin/includes/navbar.php";
 </head>
 <body>
 
+
 	 <!-- title image start -->
-	<br> <br><br>
-	<div class="container-fluid  div1">
-		
-	</div>
+	
+	<img src="onlinetutorial.jpg" alt="online" class="photo" width="100" height="50">
+	<br><br>
 	<!-- title image ends -->
 
 
 	<!-- video course card starts -->
-	<br><br><br>
+	
 	<div class="container-fluid">
 
 		<div class="row">
@@ -73,7 +74,7 @@ include "../../admin/includes/navbar.php";
 		 	<div class="col-md-4">
 				<div class="card shadow" style="width: 22rem; height: 10rem;">
 		 	<div class="inner">                                                  <!--  to zoom in and zoom out effect -->
-						<img class="card-img-top " style="height: 15rem;"   src=<?php echo $row['image']; ?> alt="Card image cap">
+						<img class="card-img-top " style="height: 20rem;"   src=<?php echo $row['image']; ?> alt="Card image cap">
 				</div>
   
 				  <div class="card-body text-center shadow">
