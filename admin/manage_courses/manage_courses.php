@@ -169,7 +169,7 @@ body {
             <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quize</a></li>
             <li class="list-group-item bg-dark"><a href="../manage_videos/manage_videos.php">Manage Videos</a></li>
             
-            <li class="list-group-item bg-dark"><a href="../logout.php">Logout</a></li>
+            <li class="list-group-item bg-dark"><a href="../../logout.php">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>
