@@ -1,13 +1,13 @@
 <?php
 
 
-
+error_reporting(1);
 
 
 
 
 session_start();
-error_reporting(-1);
+
 
 if (!isset($_SESSION['username'])) {
 	header('location:login.php');
