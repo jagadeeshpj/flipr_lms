@@ -4,10 +4,11 @@ class manage_videos_class
  {
 
 
- 	public $host="localhost";
- 	public $username="root";
- 	public $pass="";
- 	public $db_name="uniquedeveloper";
+	public $host="remotemysql.com";
+ 	public $username="n8gxap7PGT";
+ 	public $pass="hIeFLjY7Qe";
+ 	public $db_name="n8gxap7PGT";
+ 	public $port=3306;
  	public $conn;
  	public $videos_list;
  	
