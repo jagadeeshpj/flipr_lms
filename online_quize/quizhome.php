@@ -97,7 +97,7 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
   
     <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a class="nav-link active " data-toggle="tab" href="../index.php">Home</a>
+      <a class="nav-link active " data-toggle="tab" href="../../index.php">Home</a>
     </li>
    <!--  <li class="nav-item">
       <a class="nav-link" href="#menu2" data-toggle="tab">Profile</a>
