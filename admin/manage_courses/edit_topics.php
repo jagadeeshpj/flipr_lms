@@ -96,10 +96,10 @@
        		</tr>
        		<?php
 
-       		 $con=mysqli_connect('localhost','root');
+       		 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
 
 
-			mysqli_select_db($con,'uniquedeveloper');
+			mysqli_select_db($con,'n8gxap7PGT');
        		$coursename=$_GET['course_name'];
        		$q="select * from courses where course_name='$coursename'";
 			$result=mysqli_query($con,$q);
