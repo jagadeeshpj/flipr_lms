@@ -308,7 +308,7 @@ footer .bottom-details .bottom_text{
         <ul class="box">
           <li class="link_name">Contact</li>
           <li><a href="#">+91 9573712XXX</a></li>
-          <li><a href="#" >jagadeeshpj2001@gmail.com</a></li>
+          <li><a href="mailto:jagadeeshpj2001@gmail.com" >GMAIL</a></li>
           <li><a href="https://jagadeeshpj.herokuapp.com/" target="__blank">Website</a></li>
 
         </ul>
