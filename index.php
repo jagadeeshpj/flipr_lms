@@ -402,6 +402,14 @@ if(!isset($_SESSION['username'])) {
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
   <?php 
 	include "admin/includes/footer.php";
  ?>
