@@ -111,7 +111,15 @@ include "../../admin/includes/navbar.php";
 
 
 <!-- footer section starts -->
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+	
+	
 <footer style="margin-top: 90px;">
 	 <?php 
  include "../../admin/includes/footer.php";
