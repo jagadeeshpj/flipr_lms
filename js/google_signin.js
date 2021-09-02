@@ -21,7 +21,7 @@
                         
                         
                         jQuery.ajax({
-                                url:'login_check.php',
+                                url:'../login_check.php',
                                 type:'post',
                                 data:'user_id='+userProfile.getId()+'&name='+userProfile.getName()+'&image='+userProfile.getImageUrl()+'&email='+userProfile.getEmail(),
                                 success:function(result){
