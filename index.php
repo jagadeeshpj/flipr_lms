@@ -57,6 +57,10 @@ if(!isset($_SESSION['username'])) {
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+	<!--google -->
+	<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
 
 	<!----------email notification-------->
 
@@ -184,6 +188,17 @@ if(!isset($_SESSION['username'])) {
 						<button class="social facebook">Log in with Facebook</button>
 						<button class="social twitter">Log in with twitter</button>
 						<button class="social google">Log in with gmail</button>
+						  <?php
+                if(isset($_SESSION['USER_ID'])){
+                        ?>
+                        <a href="javascript:void(0)" onclick="logout()">Logout</a>
+                        <?php
+                }else{
+                        ?>
+                        <div class="g-signin2" data-onsuccess="gmailLogIn"></div>
+                        <?php
+                }
+                ?>
 					</div>
 						
 					</div>
