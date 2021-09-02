@@ -46,6 +46,7 @@ session_start();
 
 	<!-- Google custom JavaScript file to integrate google signin-->
 	<script type="text/javascript" src="js/google_signin.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	
 
 	<!----------email notification-------->
