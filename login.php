@@ -133,7 +133,7 @@ session_start();
 
 						<button class="social facebook">Log in with Facebook</button>
 						<button class="social twitter">Log in with twitter</button>
-						<button type="submit" class="social google g-signin2" data-onsuccess="gmailLogIn">Log in with gmail</button>
+						<button type="submit" class="social google g-signin2" data-onsuccess="onSignIn()">Log in with gmail</button>
 					</div>
 						
 					</div>
