@@ -22,5 +22,7 @@ if($check>0){
         $_SESSION['NAME']=$name;
 }
 
-echo "done";
+echo header('location:index.php');
+
+
 ?>
