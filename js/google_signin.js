@@ -4,7 +4,7 @@
                     jQuery.ajax({
                                 url:'../logout.php',
                                 success:function(result){
-                                        window.location.href="../index.php";
+                                        window.location.href="../login.php";
                                 }
                         });
                     
@@ -25,7 +25,7 @@
                                 type:'post',
                                 data:'user_id='+userProfile.getId()+'&name='+userProfile.getName()+'&image='+userProfile.getImageUrl()+'&email='+userProfile.getEmail(),
                                 success:function(result){
-                                        window.location.href="../index.php";
+                                        window.location.href="../login.php";
                                 }
                         });
                 }
