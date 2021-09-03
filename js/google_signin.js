@@ -1,4 +1,4 @@
- /* function logout(){
+function logout(){
                     var auth2 = gapi.auth2.getAuthInstance();
                     auth2.signOut();  
                     jQuery.ajax({
@@ -29,4 +29,3 @@
                                 }
                         });
                 }
-*/
