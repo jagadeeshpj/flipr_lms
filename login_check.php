@@ -1,4 +1,4 @@
-<?php
+/* <?php
 session_start();
 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe','n8gxap7PGT');
 
@@ -26,3 +26,5 @@ echo header('location:index.php');
 
 
 ?>
+
+*/
