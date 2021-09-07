@@ -48,7 +48,7 @@ include "../includes/navbar.php"
 		<ul class="sidemenulist">
 			
 			<li style="background-color :orangered;"><a href="" >Welcome Admin</a></li>
-			<li><a href="http://localhost/MyResponsiveWebsiteDemo/admin/admin_panel.php">courses</a></li>
+			<li><a href="../admin/admin_panel.php">courses</a></li>
 			<li> <a href="" data-toggle="modal" data-target="#myModal">Add New Course</a></li>
 			<li><a href="" data-toggle="modal" data-target="#myModaldelete">Delete course</a></li>
 
