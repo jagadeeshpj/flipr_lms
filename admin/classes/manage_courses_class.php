@@ -4,10 +4,10 @@ class manage_courses_class
  {
 
 
- 		public $host="remotemysql.com";
- 	public $username="n8gxap7PGT";
- 	public $pass="hIeFLjY7Qe";
- 	public $db_name="n8gxap7PGT";
+ public $host="sql6.freesqldatabase.com";
+ 	public $username="sql6435193";
+ 	public $pass="F3REjmVvVA";
+ 	public $db_name="sql6435193";
  	public $port=3306;
  	public $conn;
  
