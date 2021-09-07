@@ -5,8 +5,10 @@
 
        		/* $con=mysqli_connect('localhost','root');
 			mysqli_select_db($con,'uniquedeveloper');  */
- $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
-			mysqli_select_db($con,'n8gxap7PGT');
+  $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
+
+
+			mysqli_select_db($con,'sql6435193');
 
        		$id=$_GET['course_id'];
        		$q="DELETE from courses where id='$id'";
