@@ -20,10 +20,10 @@ development connection
 */
 
 /*remote database connection*/
-	public $host="remotemysql.com";
- 	public $username="n8gxap7PGT";
- 	public $pass="hIeFLjY7Qe";
- 	public $db_name="n8gxap7PGT";
+	public $host="sql6.freesqldatabase.com";
+ 	public $username="sql6435193";
+ 	public $pass="F3REjmVvVA";
+ 	public $db_name="sql6435193";
  	public $conn;
  	public $user_details;
  	public $course_count=0;
