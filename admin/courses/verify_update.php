@@ -5,8 +5,10 @@ if (isset($_POST['submitupdate'])) {
  
 
 
-           $con=mysqli_connect('localhost','root');
-      mysqli_select_db($con,'uniquedeveloper');
+           $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
+
+
+			mysqli_select_db($con,'sql6435193');
 
 
           $course_id=$_POST['cors_id'];
