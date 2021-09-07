@@ -106,8 +106,8 @@
 			<li style="background-color :orangered;"><a href="../../programmingdemo.php" >BACK</a></li>
 
 <?php 
- $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
- mysqli_select_db($con,'n8gxap7PGT');
+ $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
+			mysqli_select_db($con,'sql6435193');
 $course_name=$_GET['course_name'];
 
 //$_GET['course_name'];
