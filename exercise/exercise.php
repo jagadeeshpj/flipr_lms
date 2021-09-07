@@ -7,7 +7,7 @@ if (!isset($_SESSION['username'])) {
 	# code...
 }
 
- 
+ //new db
  $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
 
 
