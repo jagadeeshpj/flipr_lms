@@ -1,6 +1,9 @@
  <?php
 session_start();
-$con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe','n8gxap7PGT');
+$con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
+
+
+			mysqli_select_db($con,'sql6435193');
 
 $name=mysqli_real_escape_string($con,$_POST['name']);
 $email=mysqli_real_escape_string($con,$_POST['email']);
