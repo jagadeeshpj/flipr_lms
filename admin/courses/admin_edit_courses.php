@@ -58,7 +58,7 @@ background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, F
 		<ul class="sidemenulist">
 			
 			<li style="background-color :orangered;"><a href="" >Welcome Admin</a></li>
-			<li><a href="http://localhost/MyResponsiveWebsiteDemo/admin/courses/admin_panel.php">courses</a></li>
+			<li><a href="../admin/courses/admin_panel.php">courses</a></li>
 			<li><a href="">Add Course</a></li>
 			<li><a href="">Update Course</a></li>
 			
