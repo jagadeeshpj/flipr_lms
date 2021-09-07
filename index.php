@@ -333,12 +333,12 @@ if(!isset($_SESSION['username'])) {
 
 								<?php 
 
-								  $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+								 $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
 									   if (!$con) {
 									   	die('connection failed'.mysqli_connect_error());
 									   }
 
-									mysqli_select_db($con,'n8gxap7PGT');
+									mysqli_select_db($con,'sql6435193');
 
 									$sql="select * from faq";
 									$result=mysqli_query($con,$sql);
