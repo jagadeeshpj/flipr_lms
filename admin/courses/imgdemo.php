@@ -3,8 +3,8 @@
  session_start();
  /*$con=mysqli_connect('localhost','root');
 mysqli_select_db($con,'uniquedeveloper');*/
- $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
-mysqli_select_db($con,'n8gxap7PGT'); 
+ $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
+ mysqli_select_db($con,'sql6435193');
 
 if (isset($_POST['btn-add-course'])) {
 	$languagename=$_POST['languagename'];
