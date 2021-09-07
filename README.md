@@ -10,7 +10,7 @@
 
 ## flipr_lms  <br />
 i had created this website using html,css,php,javascript.  <br />
-i had used remotetype database from https://remotemysql.com/ and mysql workbench 8.0 ce.
+i had used remotetype database from https://www.freesqldatabase.com and mysql workbench 8.0 ce.
  <br />
   <br />
    <br />
@@ -49,7 +49,7 @@ JavaScript & ES6  <br />
 php  <br />  <br />  <br />
 
 ## Back End  <br />
-remote type database(https://remotemysql.com/)  <br />
+remote type databasehttps://www.freesqldatabase.com/)  <br />
 MySQL  <br />
  <br />  <br />
 
