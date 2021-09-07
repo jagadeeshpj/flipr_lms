@@ -188,10 +188,10 @@ include "../includes/navbar.php"
 
 
 			mysqli_select_db($con,'uniquedeveloper');  */
-			$con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+			 $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
 
 
-			mysqli_select_db($con,'n8gxap7PGT');
+			mysqli_select_db($con,'sql6435193');
 
 			$q="select * from programming_languages";
 			$query=mysqli_query($con,$q);
