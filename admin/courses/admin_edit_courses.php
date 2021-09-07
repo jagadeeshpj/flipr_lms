@@ -89,10 +89,10 @@ background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, F
 
        		/*$con=mysqli_connect('localhost','root');
 */
-       		 $con=mysqli_connect('remotemysql.com','n8gxap7PGT','hIeFLjY7Qe');
+       		 $con=mysqli_connect('sql6.freesqldatabase.com','sql6435193','F3REjmVvVA');
 
 
-			mysqli_select_db($con,'n8gxap7PGT');
+			mysqli_select_db($con,'sql6435193');
 			/* mysqli_select_db($con,'uniquedeveloper');*/
        		$coursename=$_GET['course_name'];
        		$q="select * from courses where course_name='$coursename'";
